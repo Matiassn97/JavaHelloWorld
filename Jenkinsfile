@@ -10,6 +10,6 @@ node {
     }
     stage ('Deploy')
     {
-        sh 'make clean'
+        echo 'Deployando'
     }
 }
